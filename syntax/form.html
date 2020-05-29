@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- action속성이 가르키는 서버로 쿼리스트링의 형태로 데이터를 전송-->
+    <!-- 수정,삭제를 요할때는 반드시 method = "post" -->
+    <form action="http://localhost:3000/process_create" method="post">
+      <!-- 입력 -->
+      <p>
+        <input type="text" name="title" />
+      </p>
+      <!-- 문단입력 -->
+      <p><textarea name="data"></textarea></p>
+      <p>
+        <!-- 전송 -->
+        <input type="submit" />
+      </p>
+    </form>
+  </body>
+</html>
