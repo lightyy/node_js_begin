@@ -20,6 +20,6 @@
   },
   "homepage": "https://github.com/lightyy/node_js_begin#readme",
   "dependencies": {
-    "sanitize-html": "^1.24.0"
+    "sanitize-html": "^2.3.2"
   }
 }
